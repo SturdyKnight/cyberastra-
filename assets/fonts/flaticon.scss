@@ -1,0 +1,153 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?da0ce767f73484819ff07dc0854fe83c") format("truetype"),
+url("./flaticon.woff?da0ce767f73484819ff07dc0854fe83c") format("woff"),
+url("./flaticon.woff2?da0ce767f73484819ff07dc0854fe83c") format("woff2"),
+url("./flaticon.eot?da0ce767f73484819ff07dc0854fe83c#iefix") format("embedded-opentype"),
+url("./flaticon.svg?da0ce767f73484819ff07dc0854fe83c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "web-security": "\f101",
+    "admin": "\f102",
+    "data-protection": "\f103",
+    "hosting": "\f104",
+    "credit-card": "\f105",
+    "brain": "\f106",
+    "concept": "\f107",
+    "spyware": "\f108",
+    "cloud-computing": "\f109",
+    "hacker": "\f10a",
+    "face-recognition": "\f10b",
+    "backup": "\f10c",
+    "connection": "\f10d",
+    "seo-and-web": "\f10e",
+    "map": "\f10f",
+    "coding": "\f110",
+    "approved": "\f111",
+    "server": "\f112",
+    "warning": "\f113",
+    "browser": "\f114",
+    "facebook": "\f115",
+    "linkedin": "\f116",
+    "twitter": "\f117",
+    "server-1": "\f118",
+    "broken-shield": "\f119",
+    "cyber-security": "\f11a",
+    "assignment": "\f11b",
+    "blackmail": "\f11c",
+    "chat": "\f11d",
+    "open-mail": "\f11e",
+    "iphone": "\f11f",
+    "pin": "\f120",
+);
+
+.flaticon-web-security:before {
+    content: map-get($flaticon-map, "web-security");
+}
+.flaticon-admin:before {
+    content: map-get($flaticon-map, "admin");
+}
+.flaticon-data-protection:before {
+    content: map-get($flaticon-map, "data-protection");
+}
+.flaticon-hosting:before {
+    content: map-get($flaticon-map, "hosting");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-brain:before {
+    content: map-get($flaticon-map, "brain");
+}
+.flaticon-concept:before {
+    content: map-get($flaticon-map, "concept");
+}
+.flaticon-spyware:before {
+    content: map-get($flaticon-map, "spyware");
+}
+.flaticon-cloud-computing:before {
+    content: map-get($flaticon-map, "cloud-computing");
+}
+.flaticon-hacker:before {
+    content: map-get($flaticon-map, "hacker");
+}
+.flaticon-face-recognition:before {
+    content: map-get($flaticon-map, "face-recognition");
+}
+.flaticon-backup:before {
+    content: map-get($flaticon-map, "backup");
+}
+.flaticon-connection:before {
+    content: map-get($flaticon-map, "connection");
+}
+.flaticon-seo-and-web:before {
+    content: map-get($flaticon-map, "seo-and-web");
+}
+.flaticon-map:before {
+    content: map-get($flaticon-map, "map");
+}
+.flaticon-coding:before {
+    content: map-get($flaticon-map, "coding");
+}
+.flaticon-approved:before {
+    content: map-get($flaticon-map, "approved");
+}
+.flaticon-server:before {
+    content: map-get($flaticon-map, "server");
+}
+.flaticon-warning:before {
+    content: map-get($flaticon-map, "warning");
+}
+.flaticon-browser:before {
+    content: map-get($flaticon-map, "browser");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-server-1:before {
+    content: map-get($flaticon-map, "server-1");
+}
+.flaticon-broken-shield:before {
+    content: map-get($flaticon-map, "broken-shield");
+}
+.flaticon-cyber-security:before {
+    content: map-get($flaticon-map, "cyber-security");
+}
+.flaticon-assignment:before {
+    content: map-get($flaticon-map, "assignment");
+}
+.flaticon-blackmail:before {
+    content: map-get($flaticon-map, "blackmail");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-open-mail:before {
+    content: map-get($flaticon-map, "open-mail");
+}
+.flaticon-iphone:before {
+    content: map-get($flaticon-map, "iphone");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
